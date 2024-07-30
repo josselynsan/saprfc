@@ -1,0 +1,853 @@
+
+**** Log file opened at 2024-07-25 18:42:38.492836 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 829732
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 18:42:38.492852 [127954378619264] >> Info entry
+	Did not find config file /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public/sapnwrfc.ini.
+
+**** Log file opened at 2024-07-25 18:55:45.007554 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 851255
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 18:55:45.007474 [135414669412736] >> Error entry
+	[Handle: 99633925083504	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 18:55:45 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-25 18:58:12.271059 [135414669412736] >> Error entry
+	[Handle: 99633925444752	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 18:58:12 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+
+**** Log file opened at 2024-07-25 19:03:21.619606 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 864066
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:03:21.619442 [135806348188032] >> Error entry
+	[Handle: 110265776499024	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:03:21 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-25 19:06:35.343139 [135806348188032] >> Error entry
+	[Handle: 110265776510448	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:06:35 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+2024-07-25 19:08:00.911260 [135806348188032] >> Error entry
+	[Handle: 110265776584080	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:08:00 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     6
+
+2024-07-25 19:10:20.659122 [135806348188032] >> Error entry
+	[Handle: 110265776567792	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:10:20 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     8
+
+2024-07-25 19:14:59.352919 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:15:02.419222 [135806348188032] >> Error entry
+	[Handle: 110265776591280	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:15:02 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     10
+
+2024-07-25 19:17:35.319851 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:17:38.382767 [135806348188032] >> Error entry
+	[Handle: 110265776599152	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:17:38 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     12
+
+2024-07-25 19:19:08.077745 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:19:11.151321 [135806348188032] >> Error entry
+	[Handle: 110265776622432	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:19:11 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     14
+
+2024-07-25 19:19:56.211086 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:19:59.279216 [135806348188032] >> Error entry
+	[Handle: 110265776630304	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:19:59 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     16
+
+2024-07-25 19:21:49.872987 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:21:52.946729 [135806348188032] >> Error entry
+	[Handle: 110265776638720	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:21:52 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     18
+
+2024-07-25 19:24:56.040418 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:24:59.119120 [135806348188032] >> Error entry
+	[Handle: 110265775908112	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:24:59 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     20
+
+2024-07-25 19:25:40.315639 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:25:43.375227 [135806348188032] >> Error entry
+	[Handle: 110265776650208	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:25:43 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     22
+
+2024-07-25 19:27:18.116799 [135806348188032] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:27:21.167077 [135806348188032] >> Error entry
+	[Handle: 110265776662192	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:27:21 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     24
+
+
+**** Log file opened at 2024-07-25 19:29:25.538293 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 894007
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:29:25.538055 [135322192775552] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:29:25.563286 [135322192775552] >> Error entry
+	[Handle: 100828995222832	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Thu Jul 25 19:29:25 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     3
+
+
+**** Log file opened at 2024-07-25 19:31:54.492781 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 896536
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:31:54.492548 [129638442146176] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:31:54.525633 [129638442146176] >> Error entry
+	[Handle: 106985783274800	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '127.0.0.1:3300' not reached
+TIME        Thu Jul 25 19:31:54 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 127.0.0.1:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     3
+
+
+**** Log file opened at 2024-07-25 19:32:24.527685 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 897043
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-25 19:32:24.527447 [132033840216448] >> Info entry
+	Setting global logon timeout to 10
+2024-07-25 19:32:27.631272 [132033840216448] >> Error entry
+	[Handle: 104061700017520	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Jul 25 19:32:27 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-07-29 12:03:06.134215 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 326308
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 12:03:06.122461 [136215125068160] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:03:09.274709 [136215125068160] >> Error entry
+	[Handle: 103557737079072	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:03:09 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-29 12:03:23.586057 [136215125068160] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:03:26.650633 [136215125068160] >> Error entry
+	[Handle: 103557737094000	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:03:26 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+
+**** Log file opened at 2024-07-29 12:04:57.548626 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 331110
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 12:04:57.548027 [137885644032384] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 12:05:00.667761 [137885644032384] >> Error entry
+	[Handle: 101864295287552	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 12:05:00 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-07-29 14:22:30.907618 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 539671
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 14:22:30.900796 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:37:24.072441 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:37:27.132504 [133304806939008] >> Error entry
+	[Handle: 109654591117888	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:37:27 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     3
+
+2024-07-29 14:39:53.575847 [133304806939008] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:39:56.633539 [133304806939008] >> Error entry
+	[Handle: 109654591152144	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:39:56 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     5
+
+
+**** Log file opened at 2024-07-29 14:41:28.112368 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 552785
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 14:41:28.112084 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:41:31.225755 [126896692382080] >> Error entry
+	[Handle: 100399617121088	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Jul 29 14:41:31 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-07-29 14:43:30.787632 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:43:35.649877 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:43:36.006271 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0xaa)[0x73696c5826d8,0x1826d8]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](Repository::queryFunctionMetaData(RfcConnectionBase*, _STL::basic_string<char16_t, _STL::char_traits<char16_t>, _STL::allocator<char16_t> > const&)+0x19b)[0x73696c4fa90f,0xfa90f]
+
+	libsapnwrfc.so[S](Repository::getFunctionDesc(RfcConnectionBase*, _STL::basic_string<char16_t, _STL::char_traits<char16_t>, _STL::allocator<char16_t> > const&)+0xd7)[0x73696c4feb31,0xfeb31]
+
+	libsapnwrfc.so[S](RfcGetFunctionDesc+0x1f9)[0x73696c4bcbf3,0xbcbf3]
+
+	sapnwrfc.so[F](zim_Connection_getFunction+0xab)[0x73697044df5b,0x8f5b]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 14:47:32.811190 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:50:54.323584 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:51:21.852000 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:56:33.553153 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:57:05.853127 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:57:38.499043 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 14:58:11.024379 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:17.689819 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:35.664134 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:25:41.674282 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:32:20.227505 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:34:14.548064 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:39:24.127053 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:41:57.158564 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:44:16.317548 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:45:37.041429 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:45:56.016644 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:46:32.829887 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:46:53.497577 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:47:21.654861 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:51:40.593084 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:53:30.784580 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:54:16.215608 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:58:17.962853 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:58:18.554256 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73696c529131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73696c52934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73696c57e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73696c57fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73696c580061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73696c58265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73696c4b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73697044d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 15:58:18.567870 [126896692382080] >> Error entry
+	[Handle: 100399617232992	ConvID: 20465116	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+2024-07-29 15:59:02.995503 [126896692382080] >> Info entry
+	Setting global logon timeout to 10
+2024-07-29 15:59:03.407247 [126896692382080] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73696c5153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73696c57c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73696c529131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73696c52934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73696c57e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73696c57fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73696c580061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73696c58265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73696c4d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73696c585815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73696c585a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73696c4b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73697044d017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5b5019888f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5b501988adb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5b501981ae00,0x2e8e00]
+
+	php8.1[T][0x5b5019908daa,0x3d6daa]
+
+	php8.1[T][0x5b501990b3c1,0x3d93c1]
+
+	php8.1[T][0x5b5019909976,0x3d7976]
+
+	php8.1[T][0x5b501990c819,0x3da819]
+
+	php8.1[T][0x5b5019659ec3,0x127ec3]
+
+	libc.so.6[T][0x73696fc29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73696fc29e40,0x29e40]
+
+
+2024-07-29 15:59:03.409967 [126896692382080] >> Error entry
+	[Handle: 100399617232992	ConvID: 20515145	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcSystemException: Key: CALL_FUNCTION_NOT_REMOTE, Code: RFC_ABAP_RUNTIME_FAILURE, Message: Function module "Z_WM_FIND_ZONA_GRUPO_PLANIFICA" cannot be used for 'remote' calls.
+
+**** Log file opened at 2024-07-29 17:31:37.467183 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 09339
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.5.0-44-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::9f70:f02:92cd:13a7
+Global trace level        : 0
+
+2024-07-29 17:31:37.466659 [133029026965888] >> Info entry
+	Setting global logon timeout to 10
