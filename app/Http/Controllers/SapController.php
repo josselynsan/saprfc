@@ -4,10 +4,18 @@
 namespace App\Http\Controllers;
 
 use App\Services\SapConnectionService;
+use App\Utils\TransactionUtility;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use App\Traits\ResponseService;
+
+
 
 class SapController extends Controller
 {
+
+    use ResponseService;
+
     protected $sapService;
 
     public function __construct(SapConnectionService $sapService)
@@ -95,5 +103,45 @@ class SapController extends Controller
 
         return response()->json($result);
     }
+
+
+    public function saprfc(Request $request)
+    {
+        try{
+
+            if (empty($request->input('functionName')))  return $this->statusHttp(400); 
+            if (empty($request->input('parameters')))  return $this->statusHttp(400); 
+
+            $functionName = $request->input('functionName');
+            $parameters = $request->input('parameters');
+
+            
+
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+
+            $timestamp = TransactionUtility::getTimestamp();
+            $transactionId = TransactionUtility::createTransactionId();
+
+            return response()->json([
+                'origin'        => 'serversaprfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            return $this->statusHttp(400, $e);
+        }
+
+    }
+
 
 }

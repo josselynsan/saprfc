@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('v1/test/conexion', [SapController::class, 'index']);
 Route::post('v1/test/llamar', [SapController::class, 'callRfcFunction']);
+Route::post('v1/saprfc', [SapController::class, 'saprfc']);
