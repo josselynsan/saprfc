@@ -24,7 +24,6 @@ class SapConnectionService
             //'saprouter' => env('SAP_SAPROUTER'),
         ];
 
-        log::info($parameters);
         SapConnection::setGlobalLogonTimeout(10);
 
         try {
@@ -33,21 +32,15 @@ class SapConnectionService
         } catch (SapConnectionException $e) {
             $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
 
-            log::info("tres");
-            //log::info($error);
             log::info($e->getErrorInfo());
             return ['error' => $e->getErrorInfo()];
 
         } catch (SapException $e) {
             $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
 
-            log::info("uno");
-            //log::info($error);
             log::info($e->getErrorInfo());
             return ['error' => $e->getErrorInfo()];
         } catch (\Exception $e) {
-            log::info("dos");
-            //log::info($e->getMessage());
             log::info($e->getErrorInfo());
             return ['error' => $e->getErrorInfo()];
         }
