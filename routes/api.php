@@ -24,11 +24,12 @@ Route::get('v1/test/conexion', [SapController::class, 'index']);
 Route::post('v1/test/llamar', [SapController::class, 'callRfcFunction']);
 Route::post('v1/saprfc', [SapController::class, 'saprfc']);
 
-Route::post('v1/saprfc/CONSULTA_AVISOS', [SapController::class, 'ZSGDEA_CONSULTA_AVISOS']);
-Route::post('v1/saprfc/PERSONAL_HABILITADO', [SapController::class, 'ZSGDEA_PERSONAL_HABILITADO']);
-Route::post('v1/saprfc/DETALLES_CTA_CONTRATO', [SapController::class, 'ZSGDEA_DETALLES_CTA_CONTRATO']);
-Route::post('v1/saprfc/DETALLE_AVISO', [SapController::class, 'ZSGDEA_DETALLE_AVISO']);
-Route::post('v1/saprfc/CONSULTA_MEDIDAS', [SapController::class, 'ZSGDEA_CONSULTA_MEDIDAS']);
-Route::post('v1/saprfc/DETALLE_INTERLOCUTOR', [SapController::class, 'ZPM_DETALLE_INTERLOCUTOR']);
-Route::post('v1/saprfc/FIND_ZONA_GRUPO_PLANIFICA', [SapController::class, 'Z_WM_FIND_ZONA_GRUPO_PLANIFICA']);
+Route::post('v1/saprfc/avisos/consulta', [SapController::class, 'ZSGDEA_CONSULTA_AVISOS']);
+Route::get('v1/saprfc/personal/habilitado/{iCentroCosto}', [SapController::class, 'ZSGDEA_PERSONAL_HABILITADO']);
+Route::get('v1/saprfc/cuenta-contrato/detalles/{cuentaContrato}', [SapController::class, 'ZSGDEA_DETALLES_CTA_CONTRATO']);
+Route::get('v1/saprfc/aviso/detalles/{iNumero}', [SapController::class, 'ZSGDEA_DETALLE_AVISO']);
+Route::get('v1/saprfc/medidas/{iFechaIni}/{iFechaFin}', [SapController::class, 'ZSGDEA_CONSULTA_MEDIDAS']);
+Route::get('v1/saprfc/interlocutor/detalles', [SapController::class, 'ZPM_DETALLE_INTERLOCUTOR']);
+Route::post('v1/saprfc/zona-grupo-planifica/consulta', [SapController::class, 'Z_WM_FIND_ZONA_GRUPO_PLANIFICA']);
+Route::post('v1/saprfc/solicitudes/consulta', [SapController::class, 'ZSGDEA_CONSULTA_SOLICITUDES']);
 

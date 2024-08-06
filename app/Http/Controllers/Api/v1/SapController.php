@@ -357,14 +357,14 @@ class SapController extends Controller
 
 
     */
-    public function ZSGDEA_DETALLE_AVISO(Request $request)
+    public function ZSGDEA_DETALLE_AVISO($iNumero)
     {
         try{
 
             
             $functionName = 'ZSGDEA_DETALLE_AVISO';
             $parameters = [
-                'I_NUMERO' => $request->iNumero,
+                'I_NUMERO' => $iNumero,
                 'I_GRUPO_AVISOS' => 'SGDEA',
             ];
 
@@ -478,14 +478,14 @@ class SapController extends Controller
 
     */
 
-    public function ZSGDEA_PERSONAL_HABILITADO(Request $request)
+    public function ZSGDEA_PERSONAL_HABILITADO($iCentroCosto)
     {
         try{
 
 
             $functionName = 'ZSGDEA_PERSONAL_HABILITADO';
             $parameters = [
-                'I_CENTRO_COSTO' => $request->iCentroCosto, //'3431001',
+                'I_CENTRO_COSTO' => $iCentroCosto, //'3431001',
             ];
         
             $result = $this->sapService->callRFC($functionName, $parameters);
@@ -598,14 +598,15 @@ class SapController extends Controller
 
 
     */
-    public function ZSGDEA_DETALLES_CTA_CONTRATO(Request $request)
+    public function ZSGDEA_DETALLES_CTA_CONTRATO($cuentaContratoId)
     {
         try{
 
 
             $cuentascontratoArray = [];
-            if (is_array($request->cuentaContrato) && !empty($request->cuentaContrato)) {
-                foreach ($request->cuentaContrato as $cuentacontrato) {
+            $arrayCuentaContrato = [$cuentaContratoId];
+            if (is_array($arrayCuentaContrato) && !empty($arrayCuentaContrato)) {
+                foreach ($arrayCuentaContrato as $cuentacontrato) {
                     if (!empty($cuentacontrato)) {
                         $cuentascontratoArray[] = ["CUENTA_CONTRATO" => $cuentacontrato];
                     }
@@ -742,23 +743,23 @@ class SapController extends Controller
 
 
     */
-    public function ZSGDEA_CONSULTA_MEDIDAS(Request $request)
+    public function ZSGDEA_CONSULTA_MEDIDAS($iFechaIni, $iFechaFin)
     {
         try{
 
 
-            if ($request->iFechaIni == NULL){
-                $request->iFechaIni = "";
+            if ($iFechaIni == NULL){
+                $iFechaIni = "";
             }
 
-            if ($request->iFechaFin == NULL){
-                $request->iFechaFin = "";
+            if ($iFechaFin == NULL){
+                $iFechaFin = "";
             }
 
             $functionName = 'ZSGDEA_CONSULTA_MEDIDAS';
             $parameters = [
-                'I_FECHA_INI' => "$request->iFechaIni",
-                'I_FECHA_FIN' => $request->iFechaFin,
+                'I_FECHA_INI' => "$iFechaIni",
+                'I_FECHA_FIN' => $iFechaFin,
                 "I_CLASES" => [
                     ["MASSN" => "MA"],
                     ["MASSN" => "MB"]
@@ -1072,6 +1073,63 @@ class SapController extends Controller
 
     }
 
+
+    public function ZSGDEA_CONSULTA_SOLICITUDES(Request $request)
+    {
+        try{
+
+
+            $clasesArray = [];
+            if (is_array($request->notifType) && !empty($request->notifType)) {
+                foreach ($request->notifType as $clase) {
+                    if (!empty($clase)) { 
+                        $clasesArray[] = ["RADICADO" => $clase, "RADICADO" => $clase];
+                    }
+                }
+            }
+
+
+            //Consulta de Información básica de los avisos
+            $functionName = 'ZSGDEA_CONSULTA_SOLICITUDES';
+            $parameters = [
+                'I_CENTRO' => $request->iCentro, // (opcional) -> si viene vacio, no debe incluirse
+                'I_FECHA_INI' => $request->iFechaIni,
+                'I_HORA_INI' => $request->iHoraIni,
+                'I_FECHA_FIN' => $request->iFechaFin,
+                'I_HORA_FIN' => $request->iHoraFin,
+                'I_GRUPO_AVISOS' => "SGDEA",
+                "I_CLASES" => $clasesArray,
+                "I_ESTADOS" => $estadosArray,
+                "I_CUENTAS_CONTRATO" => $cuentascontratoArray
+
+            ];
+    
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+
+            $timestamp = TransactionUtility::getTimestamp();
+            $transactionId = TransactionUtility::createTransactionId();
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            return $this->statusHttp(400, $e);
+        }
+
+    }
 
 
 }
