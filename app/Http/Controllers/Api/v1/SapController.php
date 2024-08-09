@@ -1077,31 +1077,47 @@ class SapController extends Controller
     public function ZSGDEA_CONSULTA_SOLICITUDES(Request $request)
     {
         try{
+            /*
+            $radicadosArray = [];
+            if (is_array($request->radicado) && !empty($request->radicado)) {
+                foreach ($request->radicado as $rad) {
+                    if (!empty($rad)) { 
+                        $radicadosArray[] = ["RADICADO" => $rad];
+                    }
+                }
+            }
+            */
 
+            $parametrosArray = [];
+            if (is_array($request->parametros) && !empty($request->radicado)) {
+                foreach ($request->parametros as $value) {
+                    if (!empty($value)) { 
+                        $parametrosArray[] = [
+                            "RADICADO" => $value->radicados,
+                            "CONTACTO" => $value->contacto,
+                            "CUENTA_CONTRATO" => $value->cuentaContrato,
+                            "INTERLOCUTOR" => $value->interlocutor,
 
-            $clasesArray = [];
-            if (is_array($request->notifType) && !empty($request->notifType)) {
-                foreach ($request->notifType as $clase) {
-                    if (!empty($clase)) { 
-                        $clasesArray[] = ["RADICADO" => $clase, "RADICADO" => $clase];
+                        ];
                     }
                 }
             }
 
 
+            $iEstado = '1';
+            if (!empty($request->iEstado)) {
+                $iEstado = $request->iEstado;
+            }
             //Consulta de Información básica de los avisos
             $functionName = 'ZSGDEA_CONSULTA_SOLICITUDES';
             $parameters = [
                 'I_CENTRO' => $request->iCentro, // (opcional) -> si viene vacio, no debe incluirse
+                'I_ESTADO' => $iEstado, 
                 'I_FECHA_INI' => $request->iFechaIni,
                 'I_HORA_INI' => $request->iHoraIni,
                 'I_FECHA_FIN' => $request->iFechaFin,
                 'I_HORA_FIN' => $request->iHoraFin,
-                'I_GRUPO_AVISOS' => "SGDEA",
-                "I_CLASES" => $clasesArray,
-                "I_ESTADOS" => $estadosArray,
-                "I_CUENTAS_CONTRATO" => $cuentascontratoArray
-
+                "I_PARAMETROS" => $parametrosArray,
             ];
     
         
@@ -1128,8 +1144,6 @@ class SapController extends Controller
         } catch (\Exception $e) {
             return $this->statusHttp(400, $e);
         }
-
     }
-
-
+    
 }
