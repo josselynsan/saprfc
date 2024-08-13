@@ -32,6 +32,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
             Route::get('interlocutor/detalles', [SapController::class, 'ZPM_DETALLE_INTERLOCUTOR']);
             Route::post('zona-grupo-planifica/consulta', [SapController::class, 'Z_WM_FIND_ZONA_GRUPO_PLANIFICA']);
             Route::post('solicitudes/consulta', [SapController::class, 'ZSGDEA_CONSULTA_SOLICITUDES']);
+            Route::post('contacto/crear', [SapController::class, 'ZSGDEA_CREAR_CONTACTO']);
+            Route::patch('contacto/actualizar', [SapController::class, 'ZSGDEA_ACTUALIZAR_CONTACTO']);
         });
 
         Route::prefix('test')->group(function () {

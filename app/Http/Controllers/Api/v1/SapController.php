@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Api\v1;
 use App\Http\Controllers\Controller;
 use App\Services\SapConnectionService;
 use App\Traits\LogService;
+use App\Traits\UtilitiesService;
 use App\Traits\ResponseService;
-use App\Utils\TransactionUtility;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Log;
 class SapController extends Controller
 {
 
-    use LogService, ResponseService;
+    use LogService, ResponseService, UtilitiesService;
 
     protected $sapService;
 
@@ -34,177 +34,23 @@ class SapController extends Controller
 
 
 
-    public function saprfc(Request $request)
-    {
-        try{
-
-
-
-            if (empty($request->input('functionName')))  return $this->statusHttp(400); 
-            /*
-            if (empty($request->input('parameters')))  return $this->statusHttp(400); 
-            */
-
-            $functionName = $request->input('functionName');
-            $parameters = $request->input('parameters');
-
-            
-            
-
-            
-
-            $result = $this->sapService->callRFC($functionName, $parameters);
-            
-            $formattedData = $result;
-    
-            $this->sapService->close();
-    
-
-            /*
-            $oldData = trim(json_encode($formattedData->toArray($request)), '{}');
-
-            HelperLog::logAdd(
-                true,
-                auth()->user()->id,
-                auth()->user()->username,
-                'api/sgc/tarea/v2/shows',
-                YiiGetParams()['eventosLogText']['View'] . " TransactionId : " . $transactionId,
-                $oldData,
-                '',
-                array()
-            );
-            */
-
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
-
-            return response()->json([
-                'origin'        => 'serversaprfc',
-                'transactionId' => $transactionId,
-                'timestamp'     => $timestamp,
-                'status'        => true,
-                'data'          => $formattedData,
-                'message'       => 'success',
-            ], 200);
-
-
-        } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
-        }
-
-    }
-
 
     /** PROBADA */
     /** PRIORIDAD (5) */
 
-    /*
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /consultas/avisos:
-            post:
-            summary: Consulta avisos
-            description: Obtiene información de los avisos basada en los parámetros proporcionados.
-            operationId: ZSGDEA_CONSULTA_AVISOS
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        iCentro:
-                        type: string
-                        description: Centro de información (opcional)
-                        iFechaIni:
-                        type: string
-                        format: date
-                        description: Fecha de inicio
-                        iHoraIni:
-                        type: string
-                        format: time
-                        description: Hora de inicio
-                        iFechaFin:
-                        type: string
-                        format: date
-                        description: Fecha de fin
-                        iHoraFin:
-                        type: string
-                        format: time
-                        description: Hora de fin
-                        notifType:
-                        type: array
-                        items:
-                            type: string
-                        description: Tipo(s) de notificación
-                        asttx:
-                        type: array
-                        items:
-                            type: string
-                        description: Estado(s) de aviso
-                        vkont:
-                        type: array
-                        items:
-                            type: string
-                        description: Cuenta(s) de contrato
-            responses:
-                '200':
-                description: Respuesta exitosa con los datos de los avisos
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Datos obtenidos de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-    */
     public function ZSGDEA_CONSULTA_AVISOS(Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/avisos/consulta';
+
         try{
 
             $estadosArray = [];
@@ -235,6 +81,10 @@ class SapController extends Controller
             }
 
 
+            if ($request->iCentro == NULL){
+                $request->iCentro = "";
+            }
+
             //Consulta de Información básica de los avisos
             $functionName = 'ZSGDEA_CONSULTA_AVISOS';
             $parameters = [
@@ -257,9 +107,7 @@ class SapController extends Controller
     
             $this->sapService->close();
     
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -272,7 +120,10 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+            
         }
 
     }
@@ -281,86 +132,24 @@ class SapController extends Controller
 
     /** PROBADA */
     /** PRIORIDAD (6) */
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /detalle/aviso:
-            post:
-            summary: Obtener detalle de aviso
-            description: Obtiene el detalle de un aviso basado en el número proporcionado.
-            operationId: ZSGDEA_DETALLE_AVISO
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        iNumero:
-                        type: string
-                        description: Número del aviso
-                        example: "1234567890"
-            responses:
-                '200':
-                description: Respuesta exitosa con el detalle del aviso
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Detalles del aviso obtenidos de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-
-    */
-    public function ZSGDEA_DETALLE_AVISO($iNumero)
+    public function ZSGDEA_DETALLE_AVISO($iNumero, Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/aviso/detalles';
+
         try{
 
+            if ($iNumero == NULL){
+                $iNumero = "";
+            }
             
             $functionName = 'ZSGDEA_DETALLE_AVISO';
             $parameters = [
@@ -375,9 +164,7 @@ class SapController extends Controller
     
             $this->sapService->close();
     
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -390,7 +177,8 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
         }
 
     }
@@ -401,87 +189,29 @@ class SapController extends Controller
 
     /** PROBADA */
     /** PRIORIDAD (9) */
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /personal/habilitado:
-            post:
-            summary: Obtener personal habilitado
-            description: Obtiene información sobre el personal habilitado basado en el centro de costo proporcionado.
-            operationId: ZSGDEA_PERSONAL_HABILITADO
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        iCentroCosto:
-                        type: string
-                        description: Centro de costo para el cual se consulta el personal habilitado
-                        example: "3431001"
-            responses:
-                '200':
-                description: Respuesta exitosa con la información del personal habilitado
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Información del personal habilitado obtenida de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
 
 
-    */
-
-    public function ZSGDEA_PERSONAL_HABILITADO($iCentroCosto)
+    public function ZSGDEA_PERSONAL_HABILITADO($iCentroCosto, Request $request)
     {
+
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/personal/habilitado';
+
+
+
         try{
 
+            if ($iCentroCosto == NULL){
+                $iCentroCosto = "";
+            }
 
             $functionName = 'ZSGDEA_PERSONAL_HABILITADO';
             $parameters = [
@@ -493,10 +223,9 @@ class SapController extends Controller
             $formattedData = $result;
     
             $this->sapService->close();
-    
+            //throw new \Exception('Simulated error');
 
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -509,7 +238,10 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+
         }
 
     }
@@ -518,88 +250,19 @@ class SapController extends Controller
     /** PROBADO - PENDIENTE REVISAR TABLE_LINE, NO LO TOMA COMO CAMPO VALIDO */
     /** PRIORIDAD (3) */
 
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /detalles/cta-contrato:
-            post:
-            summary: Obtener detalles de cuentas de contrato
-            description: Obtiene información detallada sobre las cuentas de contrato basadas en los datos proporcionados.
-            operationId: ZSGDEA_DETALLES_CTA_CONTRATO
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        tableLine:
-                        type: array
-                        items:
-                            type: string
-                        description: Lista de cuentas de contrato para las cuales se obtendrán los detalles.
-                        example:
-                            - "0001234567"
-                            - "0002345678"
-            responses:
-                '200':
-                description: Respuesta exitosa con la información detallada de las cuentas de contrato
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Información detallada sobre las cuentas de contrato obtenida de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-
-    */
-    public function ZSGDEA_DETALLES_CTA_CONTRATO($cuentaContratoId)
+    public function ZSGDEA_DETALLES_CTA_CONTRATO($cuentaContratoId, Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/cuenta-contrato/detalles';
+
         try{
 
 
@@ -626,10 +289,8 @@ class SapController extends Controller
             $formattedData = $result;
     
             $this->sapService->close();
-    
 
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -642,7 +303,8 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
         }
 
     }
@@ -653,98 +315,20 @@ class SapController extends Controller
     /** PROBADA */
     /** PRIORIDAD (10) */
 
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /consulta/medidas:
-            post:
-            summary: Consultar medidas
-            description: Obtiene información sobre medidas basadas en las clases y fechas proporcionadas.
-            operationId: ZSGDEA_CONSULTA_MEDIDAS
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        iFechaIni:
-                        type: string
-                        format: date
-                        description: Fecha de inicio para la consulta de medidas
-                        example: "2024-01-01"
-                        iFechaFin:
-                        type: string
-                        format: date
-                        description: Fecha de fin para la consulta de medidas
-                        example: "2024-12-31"
-                        massn:
-                        type: array
-                        items:
-                            type: string
-                        description: Lista de clases para la consulta de medidas
-                        example:
-                            - "001"
-                            - "002"
-            responses:
-                '200':
-                description: Respuesta exitosa con la información de las medidas
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Información de las medidas obtenida de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-
-    */
-    public function ZSGDEA_CONSULTA_MEDIDAS($iFechaIni, $iFechaFin)
+    public function ZSGDEA_CONSULTA_MEDIDAS($iFechaIni, $iFechaFin, Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/medidas';
+
+
         try{
 
 
@@ -775,9 +359,7 @@ class SapController extends Controller
     
             $this->sapService->close();
     
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -790,7 +372,8 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
         }
 
     }
@@ -798,95 +381,22 @@ class SapController extends Controller
     /** PROBADA */
     /** PRIORIDAD (12) */
 
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /detalle/interlocutor:
-            post:
-            summary: Obtener detalle de interlocutor
-            description: Obtiene detalles de un interlocutor basado en el contrato o el identificador del interlocutor proporcionado.
-            operationId: ZPM_DETALLE_INTERLOCUTOR
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        ctaContrato:
-                        type: string
-                        description: Número del contrato para obtener detalles del interlocutor
-                        example: "11557160"
-                        interlocutor:
-                        type: string
-                        description: Identificador del interlocutor para obtener detalles
-                        example: "10215971"
-                    oneOf:
-                        - required: [ctaContrato]
-                        - required: [interlocutor]
-            responses:
-                '200':
-                description: Respuesta exitosa con el detalle del interlocutor
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Detalles del interlocutor obtenidos de la consulta
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: serverSapRfc
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-
-    */
-
     /** Nota:  agregar formato con ceros a la izquierda hasta 12 caracteres $request->ctaContrato
      *         agregar formato con ceros a la izquierda hasta 10 caracteres $request->interlocutor
     */
     public function ZPM_DETALLE_INTERLOCUTOR(Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/interlocutor/detalles';
+
         try{
             $opcion = 0;
             $message = "success";
@@ -917,9 +427,7 @@ class SapController extends Controller
                 $this->sapService->close();
             }
     
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -932,107 +440,15 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
         }
 
     }
 
-    /** PROBADA - NO TIENE HABILITADO CONSUMO REMOTO */
+    /** PROBADA - NO TIENE HABILITADO CONSUMO REMOTO - NO FUNCIONA */
     /** PRIORIDAD (2) */
 
-    /*
-
-        openapi: 3.0.0
-        info:
-        title: API Documentation
-        version: 1.0.0
-        paths:
-        /wm/find/zona-grupo-planifica:
-            post:
-            summary: Buscar zona de agrupación de estructura regional
-            description: Realiza una búsqueda para encontrar la zona de agrupación de una estructura regional basada en los parámetros proporcionados.
-            operationId: Z_WM_FIND_ZONA_GRUPO_PLANIFICA
-            requestBody:
-                required: true
-                content:
-                application/json:
-                    schema:
-                    type: object
-                    properties:
-                        zCalle:
-                        type: string
-                        description: Calle para la búsqueda
-                        example: "Av. Principal"
-                        zHouse1:
-                        type: string
-                        description: Número de la casa o edificio para la búsqueda
-                        example: "123"
-                        zQmart:
-                        type: string
-                        description: Código del barrio o zona
-                        example: "BQ001"
-                        zCiudad:
-                        type: string
-                        description: Ciudad para la búsqueda
-                        example: "Madrid"
-                    required:
-                        - zCalle
-                        - zHouse1
-                        - zQmart
-                        - zCiudad
-            responses:
-                '200':
-                description: Respuesta exitosa con los datos de la zona de agrupación
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: server
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: true
-                        data:
-                            type: object
-                            description: Datos obtenidos de la búsqueda de la zona de agrupación
-                        message:
-                            type: string
-                            example: success
-                '400':
-                description: Error en la solicitud
-                content:
-                    application/json:
-                    schema:
-                        type: object
-                        properties:
-                        origin:
-                            type: string
-                            example: server
-                        transactionId:
-                            type: string
-                            example: 1234567890
-                        timestamp:
-                            type: string
-                            format: date-time
-                            example: 2024-08-01T12:00:00Z
-                        status:
-                            type: boolean
-                            example: false
-                        message:
-                            type: string
-                            example: Error details here
-
-
-    */
     public function Z_WM_FIND_ZONA_GRUPO_PLANIFICA(Request $request)
     {
         try{
@@ -1076,17 +492,22 @@ class SapController extends Controller
 
     public function ZSGDEA_CONSULTA_SOLICITUDES(Request $request)
     {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/solicitudes/consulta';
+
         try{
-            /*
-            $radicadosArray = [];
-            if (is_array($request->radicado) && !empty($request->radicado)) {
-                foreach ($request->radicado as $rad) {
-                    if (!empty($rad)) { 
-                        $radicadosArray[] = ["RADICADO" => $rad];
-                    }
-                }
+
+            if ($request->iCentro == NULL){
+                $request->iCentro = "";
             }
-            */
 
             $parametrosArray = [];
             if (is_array($request->parametros) && !empty($request->radicado)) {
@@ -1097,7 +518,6 @@ class SapController extends Controller
                             "CONTACTO" => $value->contacto,
                             "CUENTA_CONTRATO" => $value->cuentaContrato,
                             "INTERLOCUTOR" => $value->interlocutor,
-
                         ];
                     }
                 }
@@ -1108,7 +528,7 @@ class SapController extends Controller
             if (!empty($request->iEstado)) {
                 $iEstado = $request->iEstado;
             }
-            //Consulta de Información básica de los avisos
+
             $functionName = 'ZSGDEA_CONSULTA_SOLICITUDES';
             $parameters = [
                 'I_CENTRO' => $request->iCentro, // (opcional) -> si viene vacio, no debe incluirse
@@ -1127,9 +547,7 @@ class SapController extends Controller
     
             $this->sapService->close();
     
-
-            $timestamp = TransactionUtility::getTimestamp();
-            $transactionId = TransactionUtility::createTransactionId();
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
 
             return response()->json([
                 'origin'        => 'serverSapRfc',
@@ -1142,8 +560,145 @@ class SapController extends Controller
 
 
         } catch (\Exception $e) {
-            return $this->statusHttp(400, $e);
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+        }
+    }
+
+
+    public function ZSGDEA_CREAR_CONTACTO(Request $request)
+    {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/contacto/crear';
+
+        try{
+
+
+            if ($request->iCuentaContrato == NULL){
+                $request->iCuentaContrato = "";
+            }
+            if ($request->iFechaRadicacion == NULL){
+                $request->iFechaRadicacion = "";
+            }
+            if ($request->iHoraRadicacion == NULL){
+                $request->iHoraRadicacion = "";
+            }
+            if ($request->iRadicado == NULL){
+                $request->iRadicado = "";
+            }
+            if ($request->iTipo == NULL){
+                $request->iTipo = "";
+            }
+            if ($request->iUsuario == NULL){
+                $request->iUsuario = "";
+            }
+
+            $functionName = 'ZSGDEA_CREAR_CONTACTO';
+            $parameters = [
+                'I_CUENTA_CONTRATO' => $request->iCuentaContrato, 
+                'I_FECHA_RADICACION' => $request->iFechaRadicacion,
+                'I_HORA_RADICACION' => $request->iHoraRadicacion,
+                'I_RADICADO' => $request->iRadicado,
+                'I_TIPO' => $request->iTipo,
+                "I_USUARIO" => $request->iUsuario,
+            ];
+    
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+        }
+    }
+
+
+    public function ZSGDEA_ACTUALIZAR_CONTACTO(Request $request)
+    {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/contacto/actualizar';
+
+        try{
+
+            if ($request->iClase == NULL){
+                $request->iClase = "";
+            }
+            if ($request->iActividad == NULL){
+                $request->iActividad = "";
+            }
+            if ($request->iAnular == NULL){
+                $request->iAnular = "";
+            }
+            if ($request->iUsuario == NULL){
+                $request->iUsuario = "";
+            }
+
+            $functionName = 'ZSGDEA_ACTUALIZAR_CONTACTO';
+            $parameters = [
+                'I_CONTACTO' => $request->iContacto, 
+                'I_CLASE' => $request->iClase,
+                'I_ACTIVIDAD' => $request->iActividad,
+                'I_ANULAR' => $request->iAnular,
+                "I_USUARIO" => $request->iUsuario,
+            ];
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
         }
     }
     
+
+
+
 }
