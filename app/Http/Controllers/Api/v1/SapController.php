@@ -38,6 +38,59 @@ class SapController extends Controller
     /** PROBADA */
     /** PRIORIDAD (5) */
 
+/**
+ * @OA\Post(
+ *     path="/api/v1/saprfc/avisos/consulta",
+ *     summary="Consulta de avisos",
+ *     description="Este método consulta avisos utilizando la función RFC de SAP ZSGDEA_CONSULTA_AVISOS.",
+ *     tags={"Avisos"},
+ *     @OA\RequestBody(
+ *         required=true,
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="iCentro", type="string", example="0010", description="Centro (opcional)"),
+ *             @OA\Property(property="iFechaIni", type="string", format="date", example="2024-08-15", description="Fecha de inicio"),
+ *             @OA\Property(property="iHoraIni", type="string", format="time", example="08:00:00", description="Hora de inicio"),
+ *             @OA\Property(property="iFechaFin", type="string", format="date", example="2024-08-15", description="Fecha de fin"),
+ *             @OA\Property(property="iHoraFin", type="string", format="time", example="18:00:00", description="Hora de fin"),
+ *             @OA\Property(property="asttx", type="array", @OA\Items(type="string"), example={"estado1", "estado2"}, description="Estados (opcional)"),
+ *             @OA\Property(property="vkont", type="array", @OA\Items(type="string"), example={"cuenta1", "cuenta2"}, description="Cuentas de contrato (opcional)"),
+ *             @OA\Property(property="notifType", type="array", @OA\Items(type="string"), example={"tipo1", "tipo2"}, description="Tipos de notificación (opcional)")
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=200,
+ *         description="Consulta exitosa",
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="origin", type="string", example="serverSapRfc"),
+ *             @OA\Property(property="transactionId", type="string", example="123456789"),
+ *             @OA\Property(property="timestamp", type="string", format="date-time", example="2024-08-15T14:30:00Z"),
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="data", type="object", description="Datos retornados por SAP"),
+ *             @OA\Property(property="message", type="string", example="success")
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=400,
+ *         description="Solicitud incorrecta",
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=false),
+ *             @OA\Property(property="message", type="string", example="Error en la solicitud")
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=500,
+ *         description="Error en el servidor",
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=false),
+ *             @OA\Property(property="message", type="string", example="Error interno del servidor")
+ *         )
+ *     )
+ * )
+ */
     public function ZSGDEA_CONSULTA_AVISOS(Request $request)
     {
         $dataHeader = $this->verificaEncabezados($request);
@@ -492,6 +545,7 @@ class SapController extends Controller
 
     public function ZSGDEA_CONSULTA_SOLICITUDES(Request $request)
     {
+
         $dataHeader = $this->verificaEncabezados($request);
         $timestamp = $dataHeader['timestamp'];
         $transactionId = $dataHeader['transactionId'];
@@ -502,6 +556,7 @@ class SapController extends Controller
             return response()->json($dataHeader['data'], 400);
         }
         $endpoint = '/api/v1/saprfc/solicitudes/consulta';
+        
 
         try{
 
@@ -509,30 +564,65 @@ class SapController extends Controller
                 $request->iCentro = "";
             }
 
+            if ($request->iEstado == NULL){
+                $request->iEstado = "";
+            }
+
+            if ($request->iHoraIni == NULL){
+                $request->iHoraIni = "010101";
+            }
+            if ($request->iHoraFin == NULL){
+                $request->iHoraFin = "235959";
+            }
+
+            if ($request->iFechaIni == NULL){
+                $request->iFechaIni = "00000000";
+            }
+            if ($request->iFechaFin == NULL){
+                $request->iFechaFin = "00000000";
+            }
+
+
             $parametrosArray = [];
-            if (is_array($request->parametros) && !empty($request->radicado)) {
+            if (is_array($request->parametros) && count($request->parametros) > 0) {
                 foreach ($request->parametros as $value) {
                     if (!empty($value)) { 
+
+                        if ($value['radicados'] == NULL){
+                            $value['radicados'] = "";
+                        }
+                        if ($value['contacto'] == NULL){
+                            $value['contacto'] = "";
+                        }
+                        if ($value['cuentaContrato'] == NULL){
+                            $value['cuentaContrato'] = "";
+                        }
+                        if ($value['interlocutor'] == NULL){
+                            $value['interlocutor'] = "";
+                        }
+            
                         $parametrosArray[] = [
-                            "RADICADO" => $value->radicados,
-                            "CONTACTO" => $value->contacto,
-                            "CUENTA_CONTRATO" => $value->cuentaContrato,
-                            "INTERLOCUTOR" => $value->interlocutor,
+                            "RADICADO" => $value['radicados'],
+                            "CONTACTO" => $value['contacto'],
+                            "CUENTA_CONTRATO" => $value['cuentaContrato'],
+                            "INTERLOCUTOR" => $value['interlocutor'],
                         ];
                     }
                 }
             }
 
 
+            /*
             $iEstado = '1';
             if (!empty($request->iEstado)) {
                 $iEstado = $request->iEstado;
             }
+            */
 
             $functionName = 'ZSGDEA_CONSULTA_SOLICITUDES';
             $parameters = [
                 'I_CENTRO' => $request->iCentro, // (opcional) -> si viene vacio, no debe incluirse
-                'I_ESTADO' => $iEstado, 
+                'I_ESTADO' => $request->iEstado, 
                 'I_FECHA_INI' => $request->iFechaIni,
                 'I_HORA_INI' => $request->iHoraIni,
                 'I_FECHA_FIN' => $request->iFechaFin,
