@@ -6361,3 +6361,9 @@ Global trace level        : 0
 2024-09-25 12:27:31.395766 [127379123689856] >> Error entry
 	[Handle: 102503620681744	ConvID: 21672205	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
 	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:38:17.706655 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:40:50.367880 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:41:07.061916 [127379123689856] >> Info entry
+	Setting global logon timeout to 10

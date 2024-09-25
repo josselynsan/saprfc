@@ -370,7 +370,7 @@ class SapController extends Controller
     /** PROBADA */
     /** PRIORIDAD (10) */
 
-    public function ZSGDEA_CONSULTA_MEDIDAS($iFechaIni, $iFechaFin, Request $request)
+    public function ZSGDEA_CONSULTA_MEDIDAS($iFechaIni, Request $request)
     {
         $dataHeader = $this->verificaEncabezados($request);
         $timestamp = $dataHeader['timestamp'];
@@ -391,14 +391,10 @@ class SapController extends Controller
                 $iFechaIni = "";
             }
 
-            if ($iFechaFin == NULL){
-                $iFechaFin = "";
-            }
 
             $functionName = 'ZSGDEA_CONSULTA_MEDIDAS';
             $parameters = [
-                'I_FECHA_INI' => "$iFechaIni",
-                'I_FECHA_FIN' => $iFechaFin,
+                'I_FECHA' => "$iFechaIni",
                 "I_CLASES" => [
                     ["MASSN" => "MA"],
                     ["MASSN" => "MB"]

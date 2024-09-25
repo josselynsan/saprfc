@@ -26,7 +26,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
             Route::get('personal/habilitado/{iCentroCosto}', [SapController::class, 'ZSGDEA_PERSONAL_HABILITADO']);
             Route::get('cuenta-contrato/detalles/{cuentaContrato}', [SapController::class, 'ZSGDEA_DETALLES_CTA_CONTRATO']);
             Route::get('aviso/detalles/{iNumero}', [SapController::class, 'ZSGDEA_DETALLE_AVISO']);
-            Route::get('medidas/{iFechaIni}/{iFechaFin}', [SapController::class, 'ZSGDEA_CONSULTA_MEDIDAS']);
+            Route::get('medidas/{iFechaIni}', [SapController::class, 'ZSGDEA_CONSULTA_MEDIDAS']);
             Route::get('interlocutor/detalles', [SapController::class, 'ZPM_DETALLE_INTERLOCUTOR']);
             Route::post('zona-grupo-planifica/consulta', [SapController::class, 'Z_WM_FIND_ZONA_GRUPO_PLANIFICA']);
             Route::post('solicitudes/consulta', [SapController::class, 'ZSGDEA_CONSULTA_SOLICITUDES']);
