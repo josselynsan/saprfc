@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\v1\SapController;
+use App\Http\Controllers\Api\v2\SapKongController;
 
 
 /*
@@ -19,9 +20,6 @@ use App\Http\Controllers\Api\v1\SapController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
-
-
     Route::prefix('v1')->group(function () {
         Route::prefix('saprfc')->group(function () {
             Route::post('avisos/consulta', [SapController::class, 'ZSGDEA_CONSULTA_AVISOS']);
@@ -43,3 +41,14 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
     });
 
+
+    //->middleware('customers')
+    Route::prefix('v2')->group(function () {
+        Route::prefix('test')->group(function () {
+            Route::prefix('kong')->group(function () {
+                Route::get('apikey', [SapKongController::class, 'testApikey']);
+            });
+            //Route::post('v1/saprfc', [SapController::class, 'saprfc']);
+        });
+
+    });

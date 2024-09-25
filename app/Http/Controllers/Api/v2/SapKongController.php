@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api\v1;
+namespace App\Http\Controllers\Api\v2;
 
 use App\Http\Controllers\Controller;
 use App\Services\SapConnectionService;
@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
 
-class SapController extends Controller
+class SapKongController extends Controller
 {
 
     use LogService, ResponseService, UtilitiesService;
@@ -21,6 +21,13 @@ class SapController extends Controller
     public function __construct(SapConnectionService $sapService)
     {
         $this->sapService = $sapService;
+    }
+
+
+    public function testApikey(Request $request)
+    {
+
+        return response()->json(['message' => 'Operación completada con éxito'], 200);
     }
 
     public function index()
@@ -152,8 +159,6 @@ class SapController extends Controller
                 "I_CUENTAS_CONTRATO" => $cuentascontratoArray
 
             ];
-
-            log::info($parameters);
     
         
             $result = $this->sapService->callRFC($functionName, $parameters);

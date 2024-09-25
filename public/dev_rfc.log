@@ -2271,3 +2271,4093 @@ Global trace level        : 0
 	Setting global logon timeout to 10
 2024-08-16 15:10:01.272766 [125638818482560] >> Info entry
 	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-20 18:41:52.610234 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 500523
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::4b9c:9e83:cba1:8059
+Global trace level        : 0
+
+2024-08-20 18:41:52.609555 [123644970060160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-20 18:42:42.126714 [123644970060160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-20 18:43:19.734374 [123644970060160] >> Info entry
+	Setting global logon timeout to 10
+2024-08-20 18:43:34.530532 [123644970060160] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-22 15:05:17.153832 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 672324
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-08-22 15:05:17.153542 [131393693497728] >> Info entry
+	Setting global logon timeout to 10
+2024-08-22 15:05:29.967448 [131393693497728] >> Info entry
+	Setting global logon timeout to 10
+2024-08-22 15:06:23.245302 [131393693497728] >> Info entry
+	Setting global logon timeout to 10
+2024-08-22 15:06:57.136090 [131393693497728] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-08-28 10:01:24.434731 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 213543
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::5863:e7ff:fee4:5c92
+Global trace level        : 0
+
+2024-08-28 10:01:24.434475 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:42.757315 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:43.099000 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:43.396796 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:43.707935 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:44.039025 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:44.339076 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:44.633585 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:44.943388 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:45.255770 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:01:45.614834 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:15.511992 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:15.843244 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:16.132201 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:16.410084 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:16.704657 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:17.004378 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:17.301475 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:17.779706 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:18.087488 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:02:18.406444 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:34.209136 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:34.512886 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:34.805413 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:35.674250 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:36.019991 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:36.338835 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:36.638054 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:36.943675 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:37.254398 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:37.586839 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:37.889273 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:38.182953 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:38.655938 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:38.981251 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:39.272013 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:39.572223 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:39.869958 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:40.188003 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:40.491368 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:40.784977 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:41.077400 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:41.382706 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:41.689792 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:42.025107 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:42.317010 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:42.634316 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:42.948730 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:43.252187 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:43.555139 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:43.852107 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:44.154041 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:44.434225 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:44.735016 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:45.462085 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:45.793562 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:46.159166 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:46.447834 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:46.742252 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:47.054776 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:47.340124 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:47.629283 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:47.926625 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:48.223889 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:48.522928 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:48.830534 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:49.128040 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:49.421206 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:49.947923 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:50.234258 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:50.532512 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:50.821701 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:51.119942 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:51.402809 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:51.699952 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:51.994623 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:52.599360 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:52.900071 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:53.197792 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:53.492027 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:53.793051 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:54.087419 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:54.376220 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:54.705058 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:54.997589 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:55.309026 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:55.622602 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:55.924586 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:56.236209 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:56.535690 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:56.821454 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:57.132172 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:57.440467 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:57.740048 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:58.031817 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:58.333585 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:58.630300 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:58.933765 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:59.253618 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:59.576447 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:03:59.869283 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:00.754147 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:01.487229 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:01.805430 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:02.137001 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:02.443758 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:02.729179 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:03.040931 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:03.360902 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:03.876385 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:04.189089 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:04.486941 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:04.784248 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:05.100944 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:05.405076 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:05.712065 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:06.038162 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:06.343338 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:06.639335 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:06.951438 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:07.262033 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:07.546080 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:07.862123 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:08.182285 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:08.484024 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:09.316326 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:09.630084 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:09.939905 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:10.253828 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:10.578407 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:10.877027 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:11.177392 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:11.498009 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:11.796140 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:12.109057 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:12.445926 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:12.735636 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:13.066640 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:13.365489 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:13.662540 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:14.225270 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:14.570704 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:15.159416 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:15.502052 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:15.992277 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:16.304703 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:16.603126 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:16.925652 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:17.243045 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:17.549183 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:17.842022 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:18.131976 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:18.436198 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:18.742271 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:19.325042 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:19.660772 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:19.950940 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:20.251344 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:20.567643 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:20.877407 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:21.187181 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:21.515254 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:21.820876 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:22.139240 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:22.560612 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:22.863775 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:23.190148 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:23.724170 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:24.052151 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:24.348877 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:24.646945 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:24.970671 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:25.296281 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:25.609464 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:25.925894 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:26.211722 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:26.530202 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:27.174739 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:27.509991 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:27.822829 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:28.124306 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:28.426370 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:29.340328 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:29.686471 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:29.992040 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:30.285389 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:30.588516 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:30.893537 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:31.195725 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:31.509421 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:31.830683 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:32.146151 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:32.492253 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:33.099731 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:33.427426 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:33.724528 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:34.032991 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:34.338899 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:34.645951 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:34.935450 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:35.256758 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:35.535520 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:35.818305 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:36.117344 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:36.421391 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:36.737564 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:37.071935 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:37.373108 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:37.696200 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:37.984044 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:38.285163 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:38.579885 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:38.878857 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:39.189477 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:39.481656 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:39.794262 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:40.145440 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:40.489401 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:40.783407 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:41.067808 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:41.382895 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:41.679873 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:42.016563 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:42.310862 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:42.625724 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:42.938213 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:43.282211 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:43.576429 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:43.895853 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:44.205293 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:44.510559 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:44.808024 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:45.114543 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:45.424118 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:45.714286 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:46.004653 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:46.286532 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:46.608178 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:47.099246 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:47.395343 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:47.717062 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:48.056909 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:48.382178 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:48.679274 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:48.972731 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:49.268220 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:49.601163 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:50.145882 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:50.457001 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:50.763293 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:51.051179 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:51.344846 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:51.641392 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:51.918086 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:52.250467 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:52.550497 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:52.831160 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:53.122985 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:53.431436 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:53.731745 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:54.041519 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:54.354860 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:54.650658 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:54.959572 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:55.515009 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:56.083239 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:56.408633 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:56.713087 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:57.039830 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:57.374026 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:57.692863 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:57.985602 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:58.288740 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:58.998956 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:59.321844 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:59.633633 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:04:59.925896 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:00.240737 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:00.559254 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:00.856519 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:01.400981 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:01.687730 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:02.060068 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:02.377234 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:02.690218 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:02.993962 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:03.282580 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:03.591888 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:03.946189 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:04.275090 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:04.601652 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:05.186051 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:05.511232 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:05.841005 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:06.158897 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:06.665508 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:06.963776 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:07.296322 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:07.587537 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:07.893405 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:08.199045 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:08.522520 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:08.837402 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:09.148682 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:09.446566 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:09.743597 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:10.067474 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:10.400389 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:10.698097 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:11.011407 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:11.336042 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:11.666175 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:11.996085 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:12.317241 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:12.635524 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:12.962923 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:13.281480 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:13.588694 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:14.224376 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:14.567762 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:14.920162 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:15.233890 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:15.555650 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:15.877151 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:16.211498 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:16.514635 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:16.843207 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:17.191167 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:17.529239 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:17.856020 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:18.176373 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:18.496097 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:18.820222 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:19.144536 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:19.456716 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:19.761682 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:20.078896 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:20.377703 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:21.202929 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:21.507025 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:21.806936 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:22.120297 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:22.424594 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:22.711458 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:23.012103 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:23.307748 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:23.623276 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:23.917123 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:24.494408 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:24.803004 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:25.102277 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:25.418669 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:25.727558 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:26.037904 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:26.355722 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:26.666542 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:26.981160 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:27.299756 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:27.608950 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:27.930811 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:28.254091 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:28.575106 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:28.907489 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:29.258738 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:29.571829 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:30.034402 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:30.539504 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:30.886694 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:31.206719 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:31.518209 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:31.834077 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:32.137250 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:32.452854 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:32.767583 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:33.344390 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:33.666029 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:33.964522 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:34.269557 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:34.553631 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:34.842720 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:35.146718 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:35.440144 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:35.738845 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:36.028214 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:36.342032 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:36.656224 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:36.966432 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:37.247878 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:37.545513 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:37.839889 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:38.125708 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:38.421909 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:38.707826 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:38.992395 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:39.306450 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:39.602575 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:39.934494 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:40.228650 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:40.541794 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:40.847423 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:41.173019 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:41.472573 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:41.789194 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:42.083246 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:42.372859 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:42.698893 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:43.020982 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:43.308914 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:43.604739 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:43.909905 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:44.199898 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:44.494519 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:44.794489 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:45.094923 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:45.390241 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:45.703898 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:46.002894 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:46.297195 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:46.667609 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:46.979839 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:47.287404 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:47.615264 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:47.925410 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:48.226751 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:48.857366 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:49.161985 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:49.457402 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:49.783075 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:50.088557 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:50.381929 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:50.705832 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:51.014555 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:51.304068 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:51.608211 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:51.904176 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:52.208102 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:52.788355 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:53.380322 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:53.693794 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:54.022865 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:54.337736 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:54.660500 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:54.994236 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:55.314981 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:55.697600 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:56.029166 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:56.325013 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:56.634325 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:57.245790 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:57.556196 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:57.864739 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:58.180809 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:58.490340 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:58.790821 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:59.096164 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:59.395368 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:05:59.712980 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:00.024429 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:00.498948 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:00.836472 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:01.158326 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:01.460045 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:01.759511 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:02.076054 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:02.392713 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:02.708322 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:03.020516 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:03.334737 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:03.654464 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:04.061819 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:04.609211 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:04.916425 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:05.238321 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:05.532504 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:05.846032 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:06.156617 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:06.473718 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:06.774408 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:07.133405 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:07.467528 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:07.790017 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:08.084781 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:08.406679 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:08.721308 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:09.057126 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:09.391787 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:09.709266 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:10.064365 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:10.379572 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:10.699871 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:11.080594 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:11.399558 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:11.727220 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:12.161295 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:12.758612 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:13.340936 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:14.660823 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:14.993334 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:15.311037 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:15.739416 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:16.038290 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:16.336099 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:16.785869 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:17.094215 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:17.507751 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:17.846181 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:18.181854 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:18.503801 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:18.800213 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:19.107366 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:19.393347 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:19.886079 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:20.195592 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:20.495440 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:20.796222 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:21.312821 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:21.625430 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:22.201485 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:22.533261 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:22.828831 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:23.134554 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:23.458795 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:23.765004 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:24.060844 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:24.376462 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:24.696493 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:25.000215 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:25.286546 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:25.606395 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:25.898221 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:26.183335 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:26.496556 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:26.786757 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:27.105722 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:27.427713 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:27.734186 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:28.055795 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:28.371301 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:28.677245 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:28.979807 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:29.267544 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:29.577356 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:29.873945 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:30.186503 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:30.497476 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:30.959941 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:31.268976 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:31.561864 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:31.883135 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:32.192072 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:32.504224 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:32.794950 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:33.107228 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:33.410307 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:33.706840 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:34.013800 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:34.354504 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:34.652270 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:34.944962 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:35.263420 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:35.552522 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:35.849351 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:36.158243 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:36.459001 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:36.747972 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:37.042362 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:37.334045 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:37.625568 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:37.923777 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:38.217097 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:38.539611 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:38.831200 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:39.147280 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:39.440935 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:39.721039 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:40.035004 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:40.330221 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:40.654271 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:40.940043 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:41.233693 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:41.529229 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:41.830750 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:42.132489 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:42.447677 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:42.749004 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:43.074959 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:43.352770 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:43.966339 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:44.274393 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:44.594689 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:44.908530 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:45.212527 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:45.502228 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:45.818966 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:46.113061 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:46.404722 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:46.700154 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:46.994537 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:47.293853 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:47.604200 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:47.889052 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:48.810551 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:49.124755 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:49.420342 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:49.714089 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:50.000444 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:50.313484 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:50.622397 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:50.928838 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:51.225189 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:51.508083 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:51.807030 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:52.107876 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:52.399640 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:52.691140 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:52.997911 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:53.293637 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:53.711549 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:54.030646 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:54.342931 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:54.666749 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:54.968078 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:55.267307 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:55.554202 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:55.853630 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:56.153672 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:56.459477 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:56.763753 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:57.061329 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:57.361387 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:57.703942 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:58.037906 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:58.346699 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:58.664132 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:58.961234 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:59.256734 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:59.537386 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:06:59.865889 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:00.188560 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:00.486925 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:00.774065 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:01.119930 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:01.419384 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:01.733386 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:02.065069 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:02.365145 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:02.684340 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:03.376858 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:03.693861 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:04.012871 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:04.326031 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:04.637740 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:04.925889 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:05.255925 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:05.576907 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:05.872637 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:06.500854 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:06.829313 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:07.171865 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:07.496735 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:07.816688 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:08.120253 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:08.431254 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:08.725739 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:09.027922 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:09.334557 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:09.622512 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:09.931543 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:10.245603 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:10.551819 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:10.858961 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:11.173053 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:11.474423 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:11.802619 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:12.115376 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:12.982775 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:13.314025 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:13.623514 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:14.298252 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:14.615704 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:14.925221 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:15.232852 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:15.526982 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:15.842102 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:16.145236 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:16.454932 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:16.761591 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:17.077718 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:17.366844 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:17.676990 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:17.977516 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:18.285948 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:18.583586 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:18.888933 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:19.201055 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:19.535985 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:19.840668 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:20.147697 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:20.456698 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:20.753805 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:21.059306 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:21.356454 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:21.662853 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:21.974166 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:22.287451 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:22.605507 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:22.898943 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:23.202022 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:23.509882 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:23.845836 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:24.352028 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:24.664544 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:24.979299 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:25.306492 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:25.603764 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:25.902953 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:26.213827 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:26.530585 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:26.855373 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:27.195366 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:27.508797 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:27.793852 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:28.099972 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:28.406446 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:28.725106 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:29.031281 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:29.473138 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:29.907163 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:30.251176 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:30.579016 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:30.880306 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:31.193216 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:31.686612 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:31.996191 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:32.313365 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:32.626848 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:32.944511 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:33.262771 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:33.555457 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:33.878104 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:34.248259 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:35.154083 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:35.504688 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:35.846041 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:36.145073 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:36.471846 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:36.767293 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:37.079132 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:37.368508 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:37.693292 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:38.001219 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:38.302628 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:38.618609 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:38.955578 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:39.256673 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:39.547008 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:39.852407 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:40.189809 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:40.627236 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:40.940452 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:41.239069 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:41.552870 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:41.856173 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:42.424448 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:42.765958 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:43.115860 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:43.422330 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:43.763656 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:44.084447 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:44.381955 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:44.701672 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:45.016084 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:45.323540 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:45.628687 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:45.942046 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:46.292593 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:46.565471 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:46.935824 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:47.249450 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:47.560950 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:47.844453 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:48.147212 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:48.477612 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:48.799192 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:49.095597 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:49.383253 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:49.675040 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:49.973425 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:50.271770 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:50.564373 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:50.867756 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:51.181697 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:51.463999 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:51.766548 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:52.078972 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:52.386539 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:52.699499 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:53.004850 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:53.308314 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:53.615903 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:53.903252 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:54.231502 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:54.537440 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:54.840508 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:55.166870 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:55.489758 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:55.819284 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:56.137971 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:56.450968 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:56.774480 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:57.091214 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:57.417029 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:57.723648 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:58.039623 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:58.346420 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:58.659377 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:58.962154 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:59.302182 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:07:59.617784 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:00.530067 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:00.868371 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:01.188108 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:01.495546 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:01.789495 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:02.102492 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:02.407459 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:02.710608 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:03.026846 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:03.335590 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:03.636684 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:03.951274 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:04.282641 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:04.588789 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:04.886348 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:05.208991 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:05.504513 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:05.838657 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:06.155864 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:06.483535 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:06.803075 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:07.439630 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:07.992426 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:08.306979 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:08.606040 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:08.949079 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:09.261875 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:09.557548 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:09.869331 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:10.201239 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:10.495695 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:10.819547 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:11.108061 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:11.406232 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:11.716357 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:12.025251 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:12.320216 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:12.640073 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:12.935779 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:13.226525 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:13.535744 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:14.661920 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:15.005953 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:15.309237 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:15.628788 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:15.953082 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:16.261558 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:16.563657 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:16.866165 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:17.170332 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:17.474861 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:17.772575 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:18.059155 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:18.368309 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:18.674371 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:18.985942 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:19.314451 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:19.625421 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:19.950253 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:20.260097 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:21.116004 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:21.480777 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:21.812091 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:22.126716 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:22.459355 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:22.775534 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:23.078483 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:23.389942 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:23.696753 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:24.019128 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:24.341101 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:24.645798 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:24.960991 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:25.257313 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:25.554080 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:26.183345 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:26.486394 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:26.809195 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:27.146001 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:27.457708 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:27.794499 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:28.094890 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:28.407555 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:28.717909 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:29.024250 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:29.344690 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:29.652649 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:29.955479 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:30.273761 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:30.597675 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:30.896173 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:31.203034 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:31.545508 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:31.838363 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:32.152732 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:32.482779 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:32.838465 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:33.149760 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:33.468739 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:33.791767 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:34.124402 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:34.420758 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:34.728573 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:35.042477 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:35.332049 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:35.629344 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:35.920487 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:36.220397 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:36.513777 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:36.825213 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:37.111733 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:37.407599 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:37.703294 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:37.986499 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:38.293659 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:38.592392 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:38.879299 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:39.191017 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:39.511572 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:40.184553 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:40.481225 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:40.771333 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:41.062890 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:41.392701 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:41.676556 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:41.995445 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:42.270222 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:42.578536 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:42.871904 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:43.197075 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:43.501463 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:43.830098 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:44.138642 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:44.424650 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:44.712828 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:45.022135 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:45.630079 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:45.965492 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:46.285235 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:46.574568 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:46.899755 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:47.205358 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:47.530809 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:47.830290 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:48.143361 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:48.433557 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:48.758290 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:49.043059 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:49.331287 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:49.625704 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:49.926895 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:50.215307 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:50.536880 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:50.839003 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:51.126213 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:51.423386 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:51.776040 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:52.083602 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:52.366719 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:52.666430 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:52.974083 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:53.293596 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:53.610662 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:54.231779 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:54.591858 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:54.888761 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:55.211835 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:55.531141 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:55.858476 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:56.172389 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:56.473411 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:56.769606 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:57.074788 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:57.374870 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:57.680036 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:57.988560 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:58.305432 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:58.607300 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:58.921586 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:59.235686 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:08:59.854181 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:00.349549 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:00.673855 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:00.997641 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:01.301841 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:01.590959 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:01.884257 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:02.184029 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:02.483230 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:02.774061 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:03.064605 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:03.402630 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:03.710731 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:04.070651 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:04.398274 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:04.695646 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:05.011782 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:05.327909 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:05.620322 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:05.914361 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:06.216952 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+2024-08-28 10:09:06.513062 [127310051432832] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-04 16:36:35.322559 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 575463
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-09-04 16:36:35.322059 [138315444775296] >> Info entry
+	Setting global logon timeout to 10
+2024-09-04 16:36:38.463761 [138315444775296] >> Error entry
+	[Handle: 106222259698832	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Wed Sep  4 16:36:38 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-09-04 16:37:07.832942 [138315444775296] >> Info entry
+	Setting global logon timeout to 10
+2024-09-04 16:37:10.908200 [138315444775296] >> Error entry
+	[Handle: 106222259700240	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Wed Sep  4 16:37:10 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+2024-09-04 16:37:48.203847 [138315444775296] >> Info entry
+	Setting global logon timeout to 10
+2024-09-04 16:37:51.293178 [138315444775296] >> Error entry
+	[Handle: 106222259722752	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Wed Sep  4 16:37:51 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     6
+
+
+**** Log file opened at 2024-09-04 18:07:43.325828 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 865524
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-09-04 18:07:43.325509 [129122639108480] >> Info entry
+	Setting global logon timeout to 10
+2024-09-04 18:07:46.431184 [129122639108480] >> Error entry
+	[Handle: 99674319286640	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Wed Sep  4 18:07:46 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-09-05 05:40:02.014795 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 33101
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-09-05 05:40:02.014492 [133537334667648] >> Info entry
+	Setting global logon timeout to 10
+2024-09-05 05:40:05.148572 [133537334667648] >> Error entry
+	[Handle: 102254679695792	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Sep  5 05:40:05 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-09-05 07:16:42.668397 [133537334667648] >> Info entry
+	Setting global logon timeout to 10
+2024-09-05 07:16:45.742176 [133537334667648] >> Error entry
+	[Handle: 102254680257776	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Sep  5 07:16:45 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     4
+
+2024-09-05 07:16:54.786744 [133537334667648] >> Info entry
+	Setting global logon timeout to 10
+2024-09-05 07:16:57.836945 [133537334667648] >> Error entry
+	[Handle: 102254680262704	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Thu Sep  5 07:16:57 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     6
+
+
+**** Log file opened at 2024-09-11 11:58:09.139166 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 339519
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-09-11 11:58:09.138876 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 11:58:09.305099 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 11:58:09.320286 [130905546430848] >> Error entry
+	[Handle: 107584720036976	ConvID: 62673269	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 11:58:25.185797 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 11:58:25.313485 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 11:58:25.314940 [130905546430848] >> Error entry
+	[Handle: 107584720117184	ConvID: 62690289	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 11:58:45.956302 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 11:58:46.068224 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 11:58:46.069657 [130905546430848] >> Error entry
+	[Handle: 107584720135824	ConvID: 62712054	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 11:59:22.600156 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 11:59:22.722380 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 11:59:22.726135 [130905546430848] >> Error entry
+	[Handle: 107584720143888	ConvID: 62749698	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 11:59:32.923216 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 11:59:33.052089 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 11:59:33.055198 [130905546430848] >> Error entry
+	[Handle: 107584720074944	ConvID: 62761020	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 12:00:04.227184 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 12:00:04.335014 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 12:00:04.338789 [130905546430848] >> Error entry
+	[Handle: 107584720090656	ConvID: 62796320	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 12:00:18.202319 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 12:00:18.336994 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 12:00:18.338484 [130905546430848] >> Error entry
+	[Handle: 107584720154592	ConvID: 62815316	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+2024-09-11 12:02:10.627997 [130905546430848] >> Info entry
+	Setting global logon timeout to 10
+2024-09-11 12:02:10.736546 [130905546430848] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x770eceb153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x770eceb7c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x770eceb29131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x770eceb2934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x770eceb7e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x770eceb7fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x770eceb80061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x770eceb8265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x770ecee14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x770ecee14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x770eceab7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x770ed2919c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x770ed2919e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x61d90371bb67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x61d90371cdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x61d9036ace00,0x2e8e00]
+
+	php8.1[T][0x61d90379adaa,0x3d6daa]
+
+	php8.1[T][0x61d90379d3c1,0x3d93c1]
+
+	php8.1[T][0x61d90379b976,0x3d7976]
+
+	php8.1[T][0x61d90379e819,0x3da819]
+
+	php8.1[T][0x61d9034ebec3,0x127ec3]
+
+	libc.so.6[T][0x770ed2629d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x770ed2629e40,0x29e40]
+
+
+2024-09-11 12:02:10.739732 [130905546430848] >> Error entry
+	[Handle: 107584720154592	ConvID: 62928717	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: La cuenta de usuario o ya no es válida o aún no es válida
+
+**** Log file opened at 2024-09-17 08:05:03.290506 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 13680
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::20ef:d047:dd75:6b3e
+Global trace level        : 0
+
+2024-09-17 08:05:03.290261 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:05:27.527521 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:07:17.228662 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:07:30.692718 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:07:43.002398 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:07:51.945946 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:08:13.011770 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:09:33.261253 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:09:51.451063 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:10:28.421632 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:11:04.381880 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:11:06.568103 [129753971841408] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7602af3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7602af37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7602af329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7602af32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7602af37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7602af37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7602af380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7602af38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7602af2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7602af385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7602af385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7602af2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7602b3656017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d737490df7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d737490fdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d737489fe00,0x2e8e00]
+
+	php8.1[T][0x5d737498ddaa,0x3d6daa]
+
+	php8.1[T][0x5d73749903c1,0x3d93c1]
+
+	php8.1[T][0x5d737498e976,0x3d7976]
+
+	php8.1[T][0x5d7374991819,0x3da819]
+
+	php8.1[T][0x5d73746deec3,0x127ec3]
+
+	libc.so.6[T][0x7602b2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7602b2e29e40,0x29e40]
+
+
+2024-09-17 08:11:06.610887 [129753971841408] >> Error entry
+	[Handle: 102750472642512	ConvID: 67477770	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-17 08:11:43.891069 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:11:44.305740 [129753971841408] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7602af3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x7602af37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x7602af329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x7602af32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x7602af37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x7602af37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x7602af380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x7602af38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x7602af2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x7602af385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x7602af385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x7602af2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x7602b3656017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d737490df7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d737490fdb9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d737489fe00,0x2e8e00]
+
+	php8.1[T][0x5d737498ddaa,0x3d6daa]
+
+	php8.1[T][0x5d73749903c1,0x3d93c1]
+
+	php8.1[T][0x5d737498e976,0x3d7976]
+
+	php8.1[T][0x5d7374991819,0x3da819]
+
+	php8.1[T][0x5d73746deec3,0x127ec3]
+
+	libc.so.6[T][0x7602b2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x7602b2e29e40,0x29e40]
+
+
+2024-09-17 08:11:44.310166 [129753971841408] >> Error entry
+	[Handle: 102750472621616	ConvID: 67518279	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-17 08:11:56.693420 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:13:12.944557 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:13:47.946549 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:13:56.812336 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:14:04.615672 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+2024-09-17 08:14:12.218773 [129753971841408] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-20 12:38:06.759839 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 211814
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d5c4:b545:fa41:2776
+Global trace level        : 0
+
+2024-09-20 12:38:06.749100 [125780258785664] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-20 17:44:03.503097 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 578850
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d5c4:b545:fa41:2776
+Global trace level        : 0
+
+2024-09-20 17:44:03.502638 [129606168693120] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-21 07:00:30.819782 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 77226
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-21 07:00:30.819552 [130931350657408] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-21 07:01:34.457382 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php
+Process ID                : 78299
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-21 07:01:34.457097 [130761508841856] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-21 07:55:50.251260 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 138195
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-21 07:55:50.250949 [125778158008704] >> Info entry
+	Setting global logon timeout to 10
+2024-09-21 07:58:10.580201 [125778158008704] >> Info entry
+	Setting global logon timeout to 10
+2024-09-21 07:58:13.688244 [125778158008704] >> Error entry
+	[Handle: 96896847605632	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Sat Sep 21 07:58:13 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+
+**** Log file opened at 2024-09-23 07:25:45.824168 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 150762
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-40-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::4b9c:9e83:cba1:8059
+Global trace level        : 0
+
+2024-09-23 07:25:45.823858 [138799470635392] >> Info entry
+	Setting global logon timeout to 10
+2024-09-23 07:25:48.982541 [138799470635392] >> Error entry
+	[Handle: 105567252217680	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Mon Sep 23 07:25:48 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+
+2024-09-23 07:26:21.600782 [138799470635392] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-24 12:32:49.494042 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 653865
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::7c0d:657a:6f18:bfd9
+Global trace level        : 0
+
+2024-09-24 12:32:49.493427 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 12:32:49.847630 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 12:32:49.887715 [131398546278784] >> Error entry
+	[Handle: 106178688564544	ConvID: 46584754	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Upgrade en ejecución: Imposible acceder al sistema
+2024-09-24 12:43:11.297445 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 12:43:11.619381 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 12:43:11.624015 [131398546278784] >> Error entry
+	[Handle: 106178688366880	ConvID: 67655501	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Upgrade en ejecución: Imposible acceder al sistema
+2024-09-24 12:44:03.514410 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 12:44:03.813933 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 12:44:03.815129 [131398546278784] >> Error entry
+	[Handle: 106178688660096	ConvID: 67708706	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Upgrade en ejecución: Imposible acceder al sistema
+2024-09-24 12:49:36.957224 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 12:49:37.274296 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 12:49:37.277951 [131398546278784] >> Error entry
+	[Handle: 106178688679232	ConvID: 68058156	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Upgrade en ejecución: Imposible acceder al sistema
+2024-09-24 13:05:07.616920 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:05:07.669068 [131398546278784] >> Error entry
+	[Handle: 106178688433648	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Tue Sep 24 13:05:07 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     6
+
+2024-09-24 13:09:26.508951 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:09:26.564457 [131398546278784] >> Error entry
+	[Handle: 106178688584848	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Tue Sep 24 13:09:26 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     8
+
+2024-09-24 13:10:24.947178 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:10:24.998609 [131398546278784] >> Error entry
+	[Handle: 106178688697088	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Tue Sep 24 13:10:24 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     10
+
+2024-09-24 13:12:08.653043 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:12:08.707110 [131398546278784] >> Error entry
+	[Handle: 106178688711616	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Tue Sep 24 13:12:08 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     12
+
+2024-09-24 13:12:12.459723 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:12:12.529245 [131398546278784] >> Error entry
+	[Handle: 106178688647584	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '172.19.1.13:3300' not reached
+TIME        Tue Sep 24 13:12:12 2024
+RELEASE     753
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      /bas/753_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 172.19.1.13:3300
+SYSTEM CALL connect
+ERRNO       111
+ERRNO TEXT  Connection refused
+COUNTER     14
+
+2024-09-24 13:12:50.351278 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:12:51.091062 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 13:12:51.092408 [131398546278784] >> Error entry
+	[Handle: 106178688747968	ConvID: 31212543	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Imposible entrar al sistema (error al verificar licencia)
+2024-09-24 13:14:57.400985 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:14:57.676143 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 13:14:57.677702 [131398546278784] >> Error entry
+	[Handle: 106178688747968	ConvID: 31340602	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Imposible entrar al sistema (error al verificar licencia)
+2024-09-24 13:17:14.468281 [131398546278784] >> Info entry
+	Setting global logon timeout to 10
+2024-09-24 13:17:14.732608 [131398546278784] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x7781977153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x77819777c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x778197729131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x77819772934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x77819777e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x77819777fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x778197780061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x77819778265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcConnectionBase::connect(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x2bf)[0x778197a14e7f,0x414e7f]
+
+	libsapnwrfc.so[S](RfcConnectionBase::openNew(RfcOptions&, _RFC_PROTOCOL_TYPE)+0x94)[0x778197a14fb4,0x414fb4]
+
+	libsapnwrfc.so[S](RfcOpenConnection+0x156)[0x7781976b7ab0,0xb7ab0]
+
+	sapnwrfc.so[F](sapnwrfc_open_connection+0xec)[0x77819ba64c3c,0x6c3c]
+
+	sapnwrfc.so[F](zim_Connection___construct+0x116)[0x77819ba64e36,0x6e36]
+
+	php8.1[S](execute_ex+0x8e97)[0x6091a69c4b67,0x357b67]
+
+	php8.1[S](zend_execute+0x139)[0x6091a69c5db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x6091a6955e00,0x2e8e00]
+
+	php8.1[T][0x6091a6a43daa,0x3d6daa]
+
+	php8.1[T][0x6091a6a463c1,0x3d93c1]
+
+	php8.1[T][0x6091a6a44976,0x3d7976]
+
+	php8.1[T][0x6091a6a47819,0x3da819]
+
+	php8.1[T][0x6091a6794ec3,0x127ec3]
+
+	libc.so.6[T][0x77819b229d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x77819b229e40,0x29e40]
+
+
+2024-09-24 13:17:14.737235 [131398546278784] >> Error entry
+	[Handle: 106178688406736	ConvID: 31479655	Target: 172.19.1.13	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: 	Codepage: 4103]
+	RfcLogonException: Key: RFC_LOGON_FAILURE, Code: RFC_LOGON_FAILURE, Message: Imposible entrar al sistema (error al verificar licencia)
+
+**** Log file opened at 2024-09-24 18:46:34.357219 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 149769
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-24 18:46:34.356927 [130756469082496] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-25 08:19:14.301682 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 257172
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-25 08:19:14.301401 [127914721180032] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-25 09:41:07.748486 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 277050
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-25 09:41:07.747989 [128396948789632] >> Info entry
+	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-25 12:19:28.316030 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 710235
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-25 12:19:28.315676 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:19:30.372410 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:19:30.413727 [127379123689856] >> Error entry
+	[Handle: 102503620555920	ConvID: 21169543	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:24:29.710650 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:25:11.992220 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:25:12.376370 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:25:12.380756 [127379123689856] >> Error entry
+	[Handle: 102503620720480	ConvID: 21519179	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:25:24.001673 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:25:43.076021 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:25:43.480412 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:25:43.484227 [127379123689856] >> Error entry
+	[Handle: 102503620728544	ConvID: 21552276	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:26:12.515668 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:26:36.128867 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:26:36.520061 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:26:36.522953 [127379123689856] >> Error entry
+	[Handle: 102503620742272	ConvID: 21607331	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:26:48.323064 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:26:48.723131 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:26:48.727055 [127379123689856] >> Error entry
+	[Handle: 102503620742272	ConvID: 21620529	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:26:59.414400 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:26:59.785445 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:26:59.789545 [127379123689856] >> Error entry
+	[Handle: 102503620681744	ConvID: 21632606	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:27:05.815914 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:27:12.548314 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:27:13.044532 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:27:13.048581 [127379123689856] >> Error entry
+	[Handle: 102503620681744	ConvID: 21647750	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso
+2024-09-25 12:27:19.078862 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:27:31.010226 [127379123689856] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 12:27:31.391778 [127379123689856] >> Info entry
+	throwRfcErrorMsg called at:
+	libsapnwrfc.so[S](RfcTrace::printStackTrace()+0x6c)[0x73d9bf3153b8,0x1153b8]
+
+	libsapnwrfc.so[S](RfcConnectionBase::throwRfcErrorMsg(int)+0x3b)[0x73d9bf37c181,0x17c181]
+
+	libsapnwrfc.so[S](CpicConnection::receive(int)+0x6d3)[0x73d9bf329131,0x129131]
+
+	libsapnwrfc.so[S](CpicConnection::readBytes(unsigned char*, unsigned int, unsigned int&)+0x7b)[0x73d9bf32934d,0x12934d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readBytes(unsigned char*, unsigned int)+0x29)[0x73d9bf37e64d,0x17e64d]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readRfcIDBegin(unsigned int*)+0x3d)[0x73d9bf37fe99,0x17fe99]
+
+	libsapnwrfc.so[S](RfcConnectionBase::readUpTo(_RFCSTATE, RfcFunction*, char16_t*, _RFCID)+0xf9)[0x73d9bf380061,0x180061]
+
+	libsapnwrfc.so[S](RfcConnectionBase::rfcReceive(RfcFunction*)+0x30)[0x73d9bf38265e,0x18265e]
+
+	libsapnwrfc.so[S](RfcFunction::rfcDeserialize(RfcConnectionBase*, RfcIOStream*)+0x4d)[0x73d9bf2d6949,0xd6949]
+
+	libsapnwrfc.so[S](SyncContext::executeContext(RfcConnectionBase*, RfcFunction*, _RFCID) const+0xc7)[0x73d9bf385815,0x185815]
+
+	libsapnwrfc.so[S](ContextBase::rfcCallReceive(RfcConnectionBase*, RfcFunction*, _RFCID)+0x1d6)[0x73d9bf385a5a,0x185a5a]
+
+	libsapnwrfc.so[S](RfcInvoke+0x185)[0x73d9bf2b814f,0xb814f]
+
+	sapnwrfc.so[F](zim_RemoteFunction_invoke+0x257)[0x73d9c364f017,0x8017]
+
+	php8.1[S](execute_ex+0x82ab)[0x5d39faf83f7b,0x356f7b]
+
+	php8.1[S](zend_execute+0x139)[0x5d39faf85db9,0x358db9]
+
+	php8.1[S](zend_execute_scripts+0xd0)[0x5d39faf15e00,0x2e8e00]
+
+	php8.1[T][0x5d39fb003daa,0x3d6daa]
+
+	php8.1[T][0x5d39fb0063c1,0x3d93c1]
+
+	php8.1[T][0x5d39fb004976,0x3d7976]
+
+	php8.1[T][0x5d39fb007819,0x3da819]
+
+	php8.1[T][0x5d39fad54ec3,0x127ec3]
+
+	libc.so.6[T][0x73d9c2e29d90,0x29d90]
+
+	libc.so.6[S](__libc_start_main+0x80)[0x73d9c2e29e40,0x29e40]
+
+
+2024-09-25 12:27:31.395766 [127379123689856] >> Error entry
+	[Handle: 102503620681744	ConvID: 21672205	Target: sapqcu.ACUEDUCTO.COM.CO	SysID: QAS	SysNr: 00	User: CC_SGDEA	Client: 300	Language: S	Codepage: 4103]
+	RfcABAPMessageException: Key: Indique el número de aviso, Code: RFC_ABAP_MESSAGE, Message: Indique el número de aviso

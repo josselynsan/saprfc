@@ -32,15 +32,19 @@ class SapConnectionService
         } catch (SapConnectionException $e) {
             $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
 
+            log::info("PART 1");
             log::info($e->getErrorInfo());
+            log::info($error);
             return ['error' => $e->getErrorInfo()];
 
         } catch (SapException $e) {
             $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
 
+            log::info("PART 2");
             log::info($e->getErrorInfo());
             return ['error' => $e->getErrorInfo()];
         } catch (\Exception $e) {
+            log::info("PART 3");
             log::info($e->getErrorInfo());
             return ['error' => $e->getErrorInfo()];
         }
@@ -71,7 +75,29 @@ class SapConnectionService
 
     public function close()
     {
-            $this->connection->close();
+
+            try {
+                $this->connection->close();
+    
+            } catch (SapConnectionException $e) {
+                $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
+    
+                log::info("PART 4");
+                log::info($e->getErrorInfo());
+                return ['error' => $e->getErrorInfo()];
+    
+            } catch (SapException $e) {
+                $error = "{$e->getMessage()} \n {$e->getTraceAsString()}";
+    
+                log::info("PART 5");
+                log::info($e->getErrorInfo());
+                return ['error' => $e->getErrorInfo()];
+            } catch (\Exception $e) {
+                log::info("PART 6");
+                log::info($e->getErrorInfo());
+                return ['error' => $e->getErrorInfo()];
+            }
+    
 
     }
 }
