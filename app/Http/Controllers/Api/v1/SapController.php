@@ -106,6 +106,24 @@ class SapController extends Controller
 
         try{
 
+            $request->validate([
+                'iFechaIni' => 'required|string',
+                'iHoraIni' => 'required|string',
+                'iFechaFin' => 'required|string',
+                'iHoraFin' => 'required|string',
+            ],[
+                'iFechaIni.required' => 'La :attribute es obligatorio.',
+                'iHoraIni.required' => 'La :attribute es obligatorio.',
+                'iFechaFin.required' => 'La :attribute es obligatorio.',
+                'iHoraFin.required' => 'La :attribute es obligatorio.',
+            ],[
+                'iFechaIni' => 'Fecha inicial',
+                'iHoraIni' => 'Hora inicial',
+                'iFechaFin' => 'Fecha final',
+                'iHoraFin' => 'Hora final',
+            ]);
+
+
             $estadosArray = [];
             if (is_array($request->asttx) && !empty($request->asttx)) {
                 foreach ($request->asttx as $estado) {
@@ -177,7 +195,7 @@ class SapController extends Controller
         } catch (\Exception $e) {
 
             $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
-            return response()->json($data, 500);
+            return response()->json($data, 400);
             
         }
 
@@ -736,6 +754,15 @@ class SapController extends Controller
 
         try{
 
+            $request->validate([
+                'iContacto' => 'required|string',
+            ],[
+                'iContacto.required' => 'El :attribute es obligatorio.',
+            ],[
+                'iContacto' => 'Contacto',
+            ]);
+
+
             if ($request->iClase == NULL){
                 $request->iClase = "";
             }
@@ -778,7 +805,7 @@ class SapController extends Controller
 
         } catch (\Exception $e) {
             $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
-            return response()->json($data, 500);
+            return response()->json($data, 400);
         }
     }
     

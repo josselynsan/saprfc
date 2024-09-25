@@ -6367,3 +6367,35 @@ Global trace level        : 0
 	Setting global logon timeout to 10
 2024-09-25 12:41:07.061916 [127379123689856] >> Info entry
 	Setting global logon timeout to 10
+
+**** Log file opened at 2024-09-25 16:29:54.555407 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 17 2024 19:16:14
+CPIC library              : 753.2024.03.04 version 3
+NI library                : 40
+Kernel Release            : 753 Patch Level 1325
+Current working directory : /home/josselyn/Documentos/clientes/colombia/Linktic/SAP/rfcv92/public
+Program                   : php8
+Process ID                : 1109270
+User                      : josselyn
+Hardware                  : AMD/Intel x86_64 with Linux x86_64
+Operating_system          : Linux 6.8.0-45-generic
+Hostname                  : Desarrollo-pc
+IP address                : 127.0.1.1
+IPv6 address              : fe80::d012:b1f7:eee8:8ed9
+Global trace level        : 0
+
+2024-09-25 16:29:54.554697 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:30:03.665704 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:30:27.106122 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:30:59.434077 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:31:06.034854 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:31:14.460301 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
+2024-09-25 16:35:31.368423 [137366780320128] >> Info entry
+	Setting global logon timeout to 10
