@@ -32,6 +32,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
             Route::post('solicitudes/consulta', [SapController::class, 'ZSGDEA_CONSULTA_SOLICITUDES']);
             Route::post('contacto/crear', [SapController::class, 'ZSGDEA_CREAR_CONTACTO']);
             Route::patch('contacto/actualizar', [SapController::class, 'ZSGDEA_ACTUALIZAR_CONTACTO']);
+            Route::post('pqr/respuestas', [SapController::class, 'ZCO_RESPQR']);
+            Route::post('contacto/clases/listar', [SapController::class, 'ZFO_BCONTAT_READ']);
+            
         });
 
         Route::prefix('test')->group(function () {

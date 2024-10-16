@@ -171,7 +171,7 @@ class SapController extends Controller
 
             ];
 
-            log::info($parameters);
+            //log::info($parameters);
     
         
             $result = $this->sapService->callRFC($functionName, $parameters);
@@ -810,6 +810,125 @@ class SapController extends Controller
     }
     
 
+    /** PROBADA */
+    /** Automatizacion respuesta PQR */
+    public function ZCO_RESPQR(Request $request)
+    {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/pqr/respuestas';
+
+        try{
+
+            $request->validate([
+                'vkont' => 'required|string',
+                'formato' => 'required|string',
+            ],[
+                'vkont.required' => 'El :attribute es obligatorio.',
+                'formato.required' => 'El :attribute es obligatorio.',
+            ],[
+                'vkont' => 'Numero de contrato',
+                'formato' => 'Formato a usar',
+            ]);
+
+
+            
+            $functionName = 'ZCO_RESPQR';
+            $parameters = [
+                'VKONT'   => $request->vkont,
+                'FORMATO' => $request->formato,
+            ];
+
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+        }
+
+    }
+
+
+    /** PROBADA */
+    /** Listar Clases de Acividad de Contacto */
+    public function ZFO_BCONTAT_READ(Request $request)
+    {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/contacto/clases/listar';
+
+        try{
+
+
+            if ($request->iClase == NULL){
+                $request->iClase = "";
+            }
+            if ($request->iActividad == NULL){
+                $request->iActividad = "";
+            }
+
+            $functionName = 'ZFO_BCONTAT_READ';
+            $parameters = [
+                'CCLASS'   => $request->iClase,
+                'ACTIVITY' => $request->iActividad,
+            ];
+
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+        }
+
+    }
 
 
 }
