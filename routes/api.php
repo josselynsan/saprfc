@@ -34,7 +34,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
             Route::patch('contacto/actualizar', [SapController::class, 'ZSGDEA_ACTUALIZAR_CONTACTO']);
             Route::post('pqr/respuestas', [SapController::class, 'ZCO_RESPQR']);
             Route::post('contacto/clases/listar', [SapController::class, 'ZFO_BCONTAT_READ']);
-            
+            Route::get('contacto/detalles/{iContacto}', [SapController::class, 'ZPM_DETALLE_CONTACTO']);
+
         });
 
         Route::prefix('test')->group(function () {

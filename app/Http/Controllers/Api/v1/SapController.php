@@ -874,7 +874,7 @@ class SapController extends Controller
 
 
     /** PROBADA */
-    /** Listar Clases de Acividad de Contacto */
+    /** Listar Clases de Actividad de Contacto */
     public function ZFO_BCONTAT_READ(Request $request)
     {
         $dataHeader = $this->verificaEncabezados($request);
@@ -927,8 +927,59 @@ class SapController extends Controller
             $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
             return response()->json($data, 500);
         }
-
     }
 
+
+    /** PROBADA */
+    /** PRIORIDAD (6) */
+    public function ZPM_DETALLE_CONTACTO($iContacto, Request $request)
+    {
+        $dataHeader = $this->verificaEncabezados($request);
+        $timestamp = $dataHeader['timestamp'];
+        $transactionId = $dataHeader['transactionId'];
+        $headerUserid = $dataHeader['headerUserid'];
+        if ($dataHeader['status']) {
+            $dataHeader = $dataHeader['data']; 
+        } else {
+            return response()->json($dataHeader['data'], 400);
+        }
+        $endpoint = '/api/v1/saprfc/contacto/detalles';
+
+        try{
+
+            if ($iContacto == NULL){
+                $iContacto = "";
+            }
+            
+            $functionName = 'ZPM_DETALLE_CONTACTO';
+            $parameters = [
+                'ID_CONTACTO' => $iContacto,
+            ];
+
+        
+            $result = $this->sapService->callRFC($functionName, $parameters);
+            
+            $formattedData = $result;
+    
+            $this->sapService->close();
+    
+            $this->createLog($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint);
+
+            return response()->json([
+                'origin'        => 'serverSapRfc',
+                'transactionId' => $transactionId,
+                'timestamp'     => $timestamp,
+                'status'        => true,
+                'data'          => $formattedData,
+                'message'       => 'success',
+            ], 200);
+
+
+        } catch (\Exception $e) {
+            $data = $this->createLogError($transactionId, $timestamp, $dataHeader,$headerUserid, $endpoint, $e->getMessage());
+            return response()->json($data, 500);
+        }
+
+    }
 
 }
